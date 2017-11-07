@@ -1,6 +1,9 @@
 ### rack_k8_sample
 
-Requirement: Need a running kubernetes environment. Minikube should work, I tested in multinode env deployed using Kubespray
+### Requirements
+* Tested on a multinode K8 cluster deployed using kubespray
+* Tested on the K8 master node on which docker cli is available but required sudo
+
 
 ### Clone the repo:
 git clone https://github.com/fd98279/rack_k8_sample.git
