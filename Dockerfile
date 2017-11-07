@@ -6,6 +6,7 @@ RUN     rpm -Uvh http://download.fedoraproject.org/pub/epel/6/i386/epel-release-
 RUN     yum install -y npm
 
 COPY . /src
+RUN rm -rf /src/node_modules
 
 RUN cd /src; npm install
 
